@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spa</title>
+  <link rel="stylesheet" href="../css/pignose.gallery.css">
+  <link rel="stylesheet" href="../css/styleEcran.css">
+  <link rel="stylesheet" href="../css/styleTablette.css">
+  <link rel="stylesheet" href="../css/styleSmartphone.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Tangerine" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Great+Vibes|Lovers+Quarrel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+  <style>
+      .pignose-gallery .pignose-gallery-thumbnails a .pignose-gallery-border.active {
+      	border-color: #c87837;
+      }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="containerHeader">
+          <div class="containerHeaderGauche">
+
+            <!-- Logo -->
+            <div class="logoHeader">
+              <a href="../index.html">
+                <img id=logoHeader src="../img/logo/logoHotel/phoenix.png" title="Logo Parimis" alt="logo hotel">
+              </a>
+            </div>
+
+            <!-- Selecteru de langue -->
+            <div class="selecteurLangue">
+              <a href="#">
+              <img class="flagLangues" src="../img/logo/flagLangues/flag-fr.png" title="français" alt="drapeau francais">
+              </a>
+              <p> | </p>
+              <a href="#">
+              <img class="flagLangues" src="../img/logo/flagLangues/flag-gb.png" title="English" alt="english flag">
+              </a>
+            </div>
+          </div>
+
+
+          <div class="containerHeaderCentre">
+            <!-- Titre du site -->
+            <div class="titreHeader">
+              <a href="../index.html"><h1>Le ParimiS</h1></a>
+            </div>
+
+            <!-- Menu de Navigation -->
+            <div class="navHeader">
+              <ul>
+                <li id="menuHotel"><a href="hotel.html">Hotel</a></li>
+                <li id="menuChambres"><a href="chambre.html">Chambres</a></li>
+                <li id="menuRestaurant"><a href="restaurant.html">Restaurant</a></li>
+                <li id="menuSpa"><a href="spa.html">Spa</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ContainerHeaderDroit">
+            <!-- Lien de réservation -->
+            <div class="reservationHeader">
+               <a href="reservation.html">Réservation</a>
+            </div>
+            <!-- la barre de recherche -->
+            <div class="recherche">
+              <form>
+                <input type="search" id="maRecherche" name="q"><br>
+                <button>Rechercher</button>
+              </form>
+            </div>
+          </div>
+        </div>
+  </header>
+
+
+  <main class="pageSecondaireSpa">
+    <div class="navSecondaireSpa">
+      <h2>Le Spa</h2>
+      <nav>
+        <ul>
+          <li><a href="#soinDetente">Soin Détente</a></li>
+          <li><a href="#soinDecouverte">Soin Découverte</a></li>
+          <li><a href="#soinRelaxant">Soin Relaxant</a></li>
+          <li><a href="#soinPlaisir">Soin Plaisir</a></li>
+          <li><a href="#soinEvasion">Soin Evasion</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section>
+
+      <div class="presentationSpa">
+        <h3>Un spa hors du commun</h3>
+        <div class="gallerie">
+          <!-- Changement couleur de l'encadrement actif dans le css ligne 83 -->
+          <div class="gallery">
+            <div class="gallery-item"><img src="../img/spa/presentation/presentation2.jpg" alt="cuisines" /></div>
+            <div class="gallery-item"><img src="../img/spa/presentation/presentation3.jpg" alt="plat" /></div>
+            <div class="gallery-item"><img src="../img/spa/presentation/presentation4.jpg" alt="table" /></div>
+            <div class="gallery-item"><img src="../img/spa/presentation/presentation5.jpg" alt="table" /></div>
+            <div class="gallery-item"><img src="../img/spa/presentation/presentation6.jpg" alt="plat" /></div>
+
+            <div class="gallery-thumbnails">
+              <a href="#"><img src="../img/spa/presentation/presentation2.jpg" alt="cuisines" /></a>
+              <a href="#"><img src="../img/spa/presentation/presentation3.jpg" alt="plat" /></a>
+              <a href="#"><img src="../img/spa/presentation/presentation4.jpg" alt="table" /></a>
+              <a href="#"><img src="../img/spa/presentation/presentation5.jpg" alt="table" /></a>
+              <a href="#"><img src="../img/spa/presentation/presentation6.jpg" alt="plat" /></a>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p>
+          Une expérience haut de gamme pour une beauté sublime, telle est la philosophie du nouveau Parimis Institut Spa ce lieu offre à chaque client un moment hors du temps sous le signe de la beauté et de la détente. <br><br>
+        </p>
+      </div>
+
+      <div class="soin">
+        <div class="presentationSoin">
+          <h3 id="soinDetente">Soin Détente</h3>
+
+          <p>Un massage "deep tissue" et des huiles essentielles apaisantes pour délivrer de la tension musculaire, en travaillant en particulier le dos, les épaules et la nuque. <br><br>
+          </p>
+
+          <span>Durée du soin : 1h</span>
+        </div>
+        <div class="photoSoin">
+          <img src="../img/spa/soinDetente/soinDetente.jpg" alt="photo massage">
+        </div>
+      </div>
+
+      <div class="soin">
+        <div class="photoSoin">
+          <img src="../img/spa/soinDecouverte/soinDecouverte.jpg" alt="photo massage">
+        </div>
+        <div class="presentationSoin">
+          <h3 id="soinDecouverte">Soin Découverte</h3>
+
+          <p>
+            Pour faire fondre stress et tensions et retrouver l'équilibre, les effleurages suédois sont associés à la chaleur pénétrante de pierres de bassalte et aux huiles essentielles revitalisantes. <br><br>
+
+            <span>Durée du soin : 1h</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="soin">
+        <div class="presentationSoin">
+          <h3 id="soinRelaxant">Soin Relaxant</h3>
+
+          <p>
+          La rencontre des effleurages suédois, de l’acupression chinoise et des massages* balinais pour stimuler la circulation et dénouer les tensions.
+          <br><br>
+
+          <span>Durée du soin : 1h</span></p>
+        </div>
+        <div class="photoSoin">
+          <img src="../img/spa/soinRelaxant/soinRelaxant.jpg" alt="photo massage">
+        </div>
+
+      </div>
+
+      <div class="soin">
+        <div class="photoSoin">
+          <img src="../img/spa/soinPlaisir/soinPlaisir.jpg" alt="photo massage">
+        </div>
+        <div class="presentationSoin">
+          <h3 id="soinPlaisir">Soin Plaisir</h3>
+
+          <p>Un enveloppement modelant pour tonifier la peau, stimuler la libération des graisses. Ce traitement agit sur l'élimination des toxines.
+          <br><br>
+
+          <span>Durée du soin : 1h</span></p>
+        </div>
+      </div>
+
+      <div class="soin">
+        <div class="presentationSoin">
+          <h3 id="soinEvasion">Soin Evasion</h3>
+
+          <p>Ce massage exclusif associe les meilleures techniques de soins de l'hôtel Parimis pour cibler au mieux les besoins de chacun.</p> <br><br>
+
+          <span>Durée du soin : 1h</span>
+        </div>
+        <div class="photoSoin">
+          <img src="../img/spa/soinEvasion/soinEvasion.jpg" alt="photo massage">
+        </div>
+      </div>
+    </section>
+
+    <aside>
+      <div class="contactSpa">
+        <p>
+          <span>Hotel Parimis<br>
+          Service Spa<br></span>
+          1 avenue Montaigne,
+          75008 Paris.
+          Reservation par téléphone : <br>
+          01 34 35 36 04 <br>
+          <a href="hotelContact.html">Contact</a>
+          <br>
+        </p>
+      </div>
+
+      <div class="actuSpa">
+        <h3>Actualité :</h3>
+        <h4>Soirée du Nouvel An au Parimis !</h4>
+        <p>Pour le Nouvel An l'hôtel Parimis organise une soirée luxueuse pour tous ses clients.
+        A cette occasion notre restaurant vous propose un menu spécial fête avec apéritif au champagne offert.</p>
+        <a href="actu.html">Autres actus</a>
+      </div>
+
+      <div class="avisSpa">
+        <h3>Avis</h3>
+        <img src="../img/avis/avis.jpg" alt="avatar">
+        <a href="avis.html">Consultez les avis</a>
+      </div>
+
+    </aside>
+    </main>
+
+    <footer>
+
+      <div class="containerFooter">
+              <!-- Section Plan du site en liens clicables section gauche footer-->
+        <div id="titreNavRapide">
+            <h2>Navigation rapide</h2>
+        </div>
+
+        <div class="footerPlanSite">
+
+          <div class="navRapide col1">
+            <h3><a href="hotel.html">
+              Hotel
+            </a></h3>
+            <a href="hotelAcces.html">Acces</a><br>
+            <a href="hotelContact.html">Contact</a><br>
+            <a href="hotelRecrutement.html">Recrutement</a><br>
+            <a href="hotelEvenement.html">Evenements</a><br>
+            <a href="hotelPresse.html">Presse</a><br>
+          </div>
+
+          <div class="navRapide col2">
+            <h3><a href="chambre.html">
+              Chambres
+            </a></h3>
+            <a href="chambreClassique.html">chambre Classique</a><br>
+            <a href="chambreConfort.html">Chambre Confort</a><br>
+            <a href="chambreLuxe.html">Chambre de Luxe</a><br>
+            <a href="chambreSuite.html">Les Suites</a><br>
+          </div>
+
+          <div class="navRapide col3">
+            <h3><a href="restaurant.html">
+              Restaurant
+            </a></h3>
+            <a href="restaurant.html#carteBrasserie">Carte de la Brasserie</a><br>
+            <a href="restaurant.html#carteDegustation">Carte de Degustation</a><br>
+            <a href="restaurant.html#carteRestaurant">Carte du Restaurant</a><br>
+          </div>
+
+          <div class="navRapide col4">
+            <h3><a href="spa.html">
+              Spa
+            </a></h3>
+            <a href="spa.html#soinDetente">Soin Détente</a><br>
+            <a href="spa.html#soinDecouverte">Soin Découverte</a><br>
+            <a href="spa.html#soinRelaxant">Soin Relaxant</a><br>
+            <a href="spa.html#soinPlaisir">Soin Plaisir</a><br>
+            <a href="spa.html#soinEvasion">Soin Evasion</a><br>
+          </div>
+
+          <div class="navRapide col5">
+            <h3><a href="actu.html">Actualités</a></h3>
+            <h3><a href="hotelContact.html">Contact</a></h3>
+            <h3><a href="avis.html">Avis</a></h3>
+          </div>
+
+        </div>
+
+
+
+            <!--  Parite centrale de mon footer  -->
+        <div class="footerCentre">
+
+          <div class="reseau">
+            <a href="https://fr-fr.facebook.com"><img src="../img/logo/logoReseaux/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com"><img src="../img/logo/logoReseaux/insta.svg" alt="instagram"></a>
+            <a href="https://www.pinterest.fr"><img src="../img/logo/logoReseaux/pinterest.svg" alt="pinterest"></a>
+            <a href="https://twitter.com"><img src="../img/logo/logoReseaux/twiter.svg" alt="twitter"></a>
+            <a href="https://www.tripadvisor.fr"><img src="../img/logo/logoReseaux/tripAdvisor.svg" alt="Trip Advisor"></a>
+          </div>
+          <div class="newsLetter">
+            <span>Abonnez-vous ici à notre Newsletter :</span>
+            <form method="post" action="#">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <input type="submit" value="S'inscrire">
+            </form>
+          </div>
+          <div class="mentionsLegales">
+            <a href="mentionsLegales.html">Mentions Légales </a> |
+            <a href="ConditionVente.html"> Conditions Générales de Vente</a> | <a href="" onClick="window.print()">Imprimer <img src="../img/logo/imprimante.png" alt="imprimante"></a><br>
+            <p>
+              Ce site n'a aucun but commercial, il est réalisé par Fabien Brive dans le cadre d'un atelier pédagogique d'intégration web au sein de l'organisme de formation IFOCOP.<br>
+              © Copyright 2018 PARIMIS Hôtel Group.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<!-- Script de ma galery photo -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script src="../js/pignose.gallery.js"></script>
+
+  <script>
+  $(function() {
+     	$('.gallery').pignoseGallery({
+     		thumbnails: '.gallery-thumbnails'
+     	});
+     });
+  </script>
+
+</body>
+</html>

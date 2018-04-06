@@ -1,0 +1,1111 @@
+@media screen and (max-width: 960px){
+/***************************************************
+***********************CSS General *****************
+****************************************************/
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body{
+  width: 100%;
+  font-size: 14px;
+  margin: 0 auto;
+}
+p{
+  font-family:  'Crimson Text', serif;
+}
+h1{
+  font-size:4.1rem;
+  font-family: 'Great Vibes', cursive;
+}
+h2{
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
+}
+h3{
+  font-family: 'Tangerine', cursive;
+  font-size: 1.8rem;
+}
+h4{
+  font-family: 'Tangerine', cursive;
+  font-size: 1.6rem;
+}
+body a{
+  font-family:  'Crimson Text', serif;
+}
+
+main{
+padding:0px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/***************************************************
+***************Conteneurs généraux *****************
+****************************************************/
+
+.containerHeader{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 125px;
+  background: #D7D6A5;
+  border-right: 1px solid #8D8B3F;
+  border-left: 1px solid #8D8B3F;
+  border-bottom: 1px solid #8D8B3F;
+}
+
+.presentationMenu{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.autresRubriqueMenu{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.containerFooter{
+  display: flex;
+  flex-wrap: wrap;
+  background: #D7D6A5;
+  border-right: 1px solid #8D8B3F;
+  border-left: 1px solid #8D8B3F;
+  border-top: 1px solid #8D8B3F;
+}
+
+/***************************************************
+**************Mes Div par Conteneur *****************
+****************************************************/
+
+
+/*---------------------------------------
+------- Div de containerHeader-----------
+---------------------------------------*/
+
+.containerHeaderGauche{
+  width: 12%;
+}
+
+.logoHeader{
+  height:80%;
+  display:none;
+}
+#logoHeader{
+  width: 100%;
+  height: 100%;
+  display:block;
+  display:none;
+}
+.selecteurLangue{
+  height: 20%;
+  width:100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+.flagLangues{
+  display:block;
+  height: 15px;
+  width: 20px;
+}
+
+.containerHeaderCentre{
+  width: 76%;
+  height: 100%;
+}
+
+.titreHeader a{
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  font-size: 2.3rem;
+  color:#585728;
+}
+#titreDuSite{
+  width: 100%;
+  height: 75%
+}
+.navHeader{
+  height: 20%;
+  }
+.navHeader ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.navHeader li{
+  list-style-type: none;
+  display:block;
+}
+.navHeader a{
+  color:#585728;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.8rem;
+}
+#menuHotel{
+   color: #074358;
+   border-bottom: 2px solid #074358;
+}
+#menuChambres{
+   color: #458985;
+   border-bottom: 2px solid #458985;
+}
+#menuRestaurant{
+   color: #A55C55;
+   border-bottom: 2px solid #A55C55;
+}
+#menuSpa{
+   color: #c87837;
+   border-bottom: 2px solid #c87837;
+}
+
+
+
+.containerHeaderDroit{
+  width: 12%;
+}
+
+.reservationHeader{
+  /*height:65%;*/
+  width: 100%;
+}
+.reservationHeader a{
+text-align: center;
+  font-size: 1.2rem;
+  display:block;
+  color :#585728;
+  border: 2px solid #D7D6A5;
+}
+.reservationHeader a:hover{
+  color : #8D8B3F;
+  border: 2px solid #8D8B3F;
+  background : black;
+  opacity: .6;
+  border-radius:5px;
+  transition: .3s;
+}
+
+.recherche form{
+text-align: center;
+}
+.recherche button{
+  width: 100%;
+   margin-right: 3px
+}
+.recherche input{
+   width: 100%;
+  margin-right: 3px
+}
+
+
+
+
+/*---------------------------------------
+------- Div de MainIndex-----------
+---------------------------------------*/
+
+/*!!!!!!!!!!!! Main Index!!!!!!!!!!!!!*/
+.containerMain{
+  width: 100%;
+}
+.presentation{
+  width: 28%;
+  text-align: center;
+  border: 1px solid #8D8B3F;
+  border-radius: 40px 2px;
+  margin-top: 15px;
+}
+.presentation p{
+  margin: 5%;
+}
+.chambres{
+  border-color : #458985;
+}
+.chambres h3{
+  color: #458985;
+}
+.restaurant{
+   border-color : #a55c55;
+}
+.restaurant h3{
+  color : #a55c55;
+}
+.spa{
+  border-color : #c87837;
+}
+.spa h3{
+  color : #c87837;
+}
+.chambres a img{
+  width: 100%;
+  box-shadow: 3px 3px 3px #458985;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #458985;
+  border-radius: 40px 2px;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+   transition:.3s;
+}
+.chambres a img:hover{
+  width: 100%;
+  box-shadow: 3px 3px 3px #458985;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #458985;
+  border-radius: 2px 40px;
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+   transition:.3s;
+}
+.restaurant a img{
+  width: 100%;
+  box-shadow: 3px 3px 3px #a55c55;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #a55c55;
+  border-radius: 40px 2px;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+   transition:.3s;
+}
+.restaurant a img:hover{
+  width: 100%;
+  box-shadow: 3px 3px 3px #a55c55;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #a55c55;
+  border-radius: 2px 40px;
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+   transition:.3s;
+}
+  .spa a img{
+  width: 100%;
+  box-shadow: 3px 3px 3px #c87837;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #c87837;
+  border-radius: 40px 2px;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+   transition:.3s;
+}
+.spa a img:hover{
+  width: 100%;
+  box-shadow: 3px 3px 3px #c87837;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #c87837;
+  border-radius: 2px 40px;
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+   transition:.3s;
+}
+.presentationHotel{
+  width:100%;
+  margin:1.5rem;
+  text-align:center;
+  border: 1px solid #074358;
+   border-radius: 50px 2px;
+}
+.presentationHotel h3{
+  color: #074358;
+}
+.rubrique{
+  width: 28%;
+  text-align: center;
+  border: 1px solid #8D8B3F;
+  border-radius: 20px 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.rubrique p{
+  margin: 5%;
+}
+.rubrique h3{
+  color: #8D8B3F;
+}
+.rubrique img{
+  width: 100%;
+  box-shadow: 3px 3px 3px #8D8B3F;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #8D8B3F;
+  border-radius: 40px 2px;
+    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  transition:.3s;
+}
+.rubrique img:hover{
+  width: 100%;
+  box-shadow: 3px 3px 3px #8D8B3F;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #8D8B3F;
+  border-radius: 2px 40px;
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  transition:.3s;
+}
+.slider{
+  border: 1px solid #8D8B3F;
+}
+
+/*!!!!!!!!!!!! Main Hotel!!!!!!!!!!!!!*/
+.pageSecondaireHotel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pageSecondaireHotel h2{
+   color: #074358;
+  font-size: 2rem;
+}
+.pageSecondaireHotel h3{
+  color: #074358;
+  font-size: 2rem;
+}
+.pageSecondaireHotel span{
+  font-size: 1em;
+  color:#074358;
+  font-style:italic;
+}
+.navSecondaireHotel{
+  width:25%;
+  display:flex;
+  flex-direction: column;
+}
+.navSecondaireHotel ul{
+   list-style-type: none;
+  border-right:2px solid #074358;
+  display:block;
+}
+.navSecondaireHotel a{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+}
+.navSecondaireHotel a:hover{
+  color: #074358;
+  border-bottom: 2px solid #074358;
+  transition : .2s;
+}
+
+.contactHotel{
+  border-left: 2px solid #074358;
+  padding-left: 7px;
+  margin-top: 37px;
+  width:28%;
+}
+.actuHotel{
+  border-left: 2px solid #074358;
+  padding-left: 7px;
+  margin-top: 20%;
+  width:28%;
+}
+.avisHotel{
+  border-left: 2px solid #074358;
+  padding-left: 7px;
+    margin-top: 20%;
+  width:28%;
+}
+.avisHotel img{
+ width: 100%;
+}
+
+/***********Index Acces********************/
+.planAcces{
+  margin-top: 5%;
+}
+.enTransport{
+  display :flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.enTransportTxt{
+  width: 48%;
+}
+.enTransportImg{
+   width: 48%;
+}
+.enTransportImg img{
+   width: 100%;
+}
+
+/*************Index Presse******************/
+.sectionPresse{
+  display: flex;
+  flex-wrap : wrap;
+  justify-content: space-around;
+  width:100%;
+}
+
+.articlePresse{
+  padding : 3%;
+  border: 1px solid #074358;
+  border-radius: 2% 15%;
+  width:42%;
+  margin-bottom:  5%;
+}
+.articlePresse h3{
+  margin: 10% 0;
+}
+.articlePresse p{
+  margin-bottom: 5%;
+}
+.articlePresse a{
+  margin-left: 5%;
+}
+.espace{
+  height:5%;
+}
+
+
+/*!!!!!!!!!!!! Main Chambres!!!!!!!!!!!!!*/
+.pageSecondaireChambres{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pageSecondaireChambres h2{
+   color: #458985;
+  font-size: 2rem;
+}
+.pageSecondaireChambres h3{
+  color: #458985;
+  font-size: 2rem;
+}
+.pageSecondaireChambres span{
+  font-size: 1em;
+  color:#458985;
+  font-style:italic;
+}
+.navSecondaireChambres{
+
+  width:25%;
+  display:flex;
+  flex-direction: column;
+}
+.navSecondaireChambres ul{
+   list-style-type: none;
+  border-right:2px solid #458985;
+  display:block;
+}
+.navSecondaireChambres a{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+}
+.navSecondaireChambres a:hover{
+  color: #458985;
+  border-bottom: 2px solid #458985;
+  transition : .2s;
+}
+section{
+  width:75%;
+}
+section p{
+  text-align: justify;
+}
+.presentationChambres{
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: column;
+  width:100%;
+}
+.textePresentationChambre{
+  margin-bottom: 15px;
+  width: 100%;
+}
+.gammesChambres{
+  display: flex;
+  justify-content: space-between;
+}
+.gammesChambres img{
+  box-shadow: 5px 5px 5px grey;
+  Width: 80%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  border-radius: 50% 0;
+  transition:.5s;
+}
+.gammesChambres img:hover{
+  box-shadow: 5px 5px 5px #458985;
+  Width: 80%;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  border-radius: 0 50%;
+  transition: .5s;
+}
+.gammeClassiqueConfort{
+  width: 48%;
+  text-align: center;
+}
+.gammeLuxeSuite{
+  width: 48%;
+  text-align: center;
+}
+.presentationGammeLuxe{
+  margin-Bottom:10%;
+}
+.presentationGammeClassique{
+  margin-Bottom:10%;
+}
+
+
+.contactChambres{
+  width: 28%;
+  border-left: 2px solid #458985;
+  padding-left: 7px;
+  margin-top: 37px;
+}
+.actuChambres{
+  width: 28%;
+  border-left: 2px solid #458985;
+  padding-left: 7px;
+  margin-top: 20%;
+}
+.avisChambres{
+  width: 28%;
+  border-left: 2px solid #458985;
+  padding-left: 7px;
+    margin-top: 20%;
+}
+.avisChambres img{
+  width: 100%
+}
+
+/*?????????? index Chambres X ?*/
+
+.gallerieChambres{
+  margin-bottom: 5%;
+}
+.presentationSuites a{
+  font-family: 'Tangerine', cursive;
+  color: #458985;
+  border:2px solid white;
+}
+.presentationSuites span{
+  font-size: 3rem;
+}
+.presentationSuites a:hover{
+  transition: .2s;
+  border:2px solid #458985;
+  border-radius: 15px 0;
+}
+/*!!!!!!!!!!!! Main Restaurant!!!!!!!!!!!!!*/
+.pageSecondaireRestaurant{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pageSecondaireRestaurant h2{
+   color: #A55C55;
+  font-size: 2rem;
+}
+.pageSecondaireRestaurant h3{
+  color: #A55C55;
+  font-size: 2rem;
+}
+.pageSecondaireRestaurant strong{
+  font-size: 1em;
+  color:#A55C55;
+  font-style:italic;
+}
+.navSecondaireRestaurant{
+  width:25%;
+  display:flex;
+  flex-direction: column;
+}
+.navSecondaireRestaurant ul{
+   list-style-type: none;
+    border-right:2px solid #A55C55;
+  display:block;
+}
+.navSecondaireRestaurant a{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+}
+.navSecondaireRestaurant a:hover{
+  color: #A55C55;
+  border-bottom: 2px solid #A55C55;
+  transition : .2s;
+}
+
+
+.presentationRestaurant{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartes{
+  width: 100%;
+}
+
+.carte{
+  border: 1px solid #A55C55;
+  border-radius: 1% 15%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  padding:5%;
+  margin-top:5%;
+}
+.presCarte{
+  width: 100%;
+  padding-bottom: 5%;
+}
+.photoCarte{
+  margin-right: 5%;
+  width: 55%;
+}
+.photoCarte img{
+  border: 1px solid #A55C55;
+  border-radius: 1% 15%;
+  box-shadow: 5px 5px 5px #A55C55;
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.tarifsCarte{
+  padding: auto;
+  width: 40%;
+}
+.tarifsCarte h4{
+  margin-bottom:5%;
+  margin-top: 15%;
+  color: #A55C55;
+}
+.tarifsCarte p, h4{
+  text-align: center;
+}
+
+.contactRestaurant{
+  width:28%;
+  border-left: 2px solid #A55C55;
+  padding-left: 7px;
+  margin-top: 37px;
+}
+.actuRestaurant{
+  width:28%;
+  border-left: 2px solid #A55C55;
+  padding-left: 7px;
+  margin-top: 20%;
+}
+.avisRestaurant{
+  width:28%;
+  border-left: 2px solid #A55C55;
+  padding-left: 7px;
+    margin-top: 20%;
+}
+.avisRestaurant img{
+  width: 100%
+}
+
+/*!!!!!!!!!!!! Main Spa!!!!!!!!!!!!!*/
+.pageSecondaireSpa{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pageSecondaireSpa h2{
+   color: #c87837;
+  font-size: 2rem;
+}
+.pageSecondaireSpa h3{
+  color: #c87837;
+  font-size: 2rem;
+}
+.pageSecondaireSpa span{
+  font-size: 1em;
+  color:#c87837;
+  font-style:italic;
+}
+.navSecondaireSpa{
+  width:25%;
+  display:flex;
+  flex-direction: column;
+}
+.navSecondaireSpa ul{
+   list-style-type: none;
+    border-right:2px solid #c87837;
+  display:block;
+}
+.navSecondaireSpa a{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+}
+.navSecondaireSpa a:hover{
+  color: #c87837;
+  border-bottom: 2px solid #c87837;
+  transition : .2s;
+}
+section{
+  width:70%;
+}
+section p{
+  text-align: justify;
+}
+.gallerie{
+  width: 100%;
+  overflow: hidden;
+}
+.soin{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #c87837;
+  border-radius: 3px 25px;
+  margin-bottom: 3%;
+  width : 100%;
+}
+.photoSoin img{
+border: 1px solid #c87837;
+  display:block;
+  width:100%;
+  border-radius:5px;
+}
+.photoSoin{
+  box-shadow: 5px 5px 5px #c87837;
+  margin:auto 0;
+  width: 45%;
+
+}
+.presentationSoin{
+  width: 45%;
+}
+aside{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contactSpa{
+  width :28%;
+  border-left: 2px solid #c87837;
+  padding-left: 7px;
+  margin-top: 37px;
+}
+.actuSpa{
+  width :28%;
+  border-left: 2px solid #c87837;
+  padding-left: 7px;
+  margin-top: 20%;
+}
+.avisSpa{
+  width :28%;
+  border-left: 2px solid #c87837;
+  padding-left: 7px;
+  margin-top: 20%;
+}
+.avisSpa img{
+  width: 100%
+}
+
+/*!!!!!!!!!!!! SECTION FORMULAIRES !!!!!!!!!!!!!*/
+form {
+  width:100%;
+ }
+fieldset {
+  padding:5%;
+  margin-bottom:5%;
+  border:1px solid #074358;
+  border-radius: 5px 40px
+ }
+.formulaire legend {
+  color:#074358;
+  font-weight:bold;
+ }
+.formulaire label {
+  margin-top:2%;
+  display:block;
+ }
+.formulaire label.inline {
+  display:inline;
+ }
+.formulaire input, textarea, select, option {
+  background-color:#074358;
+  opacity: .75;
+ }
+
+.formulaire input, textarea, select {
+  padding:3px;
+  border:1px solid #074358;
+  border-radius:5px 15px;
+  width:60%px;
+  box-shadow:2px 2px 2px #074358 inset;
+ }
+.formulaire select {
+  margin-top:10px;
+ }
+.formulaire input[type=submit]{
+  width:30%;
+  box-shadow:2px 2px 2px #074358;
+  cursor:pointer;
+ }
+.formulaire input[type=submit]:hover{
+  background-color: #11a0d4;
+ }
+.formulaire input[type=submit]:active{
+  background-color:#074358;
+  box-shadow:1px 1px 1px #D83F3D inset;
+}
+/*!!!!!!!!!!!! Main Actualité!!!!!!!!!!!!!*/
+.containeurAnnexes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width:100%;
+}
+.sectionAnnexes{
+  width:70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sectionAnnexes h2{
+  color: #8D8B3F;
+  width: 100%;
+}
+.navSecondaireAnnexes{
+  width: 25%;
+}
+.navSecondaireAnnexes h2{
+  color: #8D8B3F;
+}
+.navSecondaireAnnexes ul{
+   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  border-right:2px solid #8D8B3F;
+}
+.navSecondaireAnnexes a{
+  font-size: 1.5rem;
+  line-height: 3rem;
+  color: black;
+}
+.navSecondaireAnnexes a:hover{
+  color: #8D8B3F;
+  border-bottom: 2px solid #8D8B3F;
+  transition : .2s;
+}
+.actu{
+  width: 30%;
+  border: 1px solid #8D8B3F;
+  border-radius: 20px 2px;
+  margin: 13px 0;
+}
+.actu p{
+  margin : 5%;
+  text-align:left;
+}
+.actu h3{
+  text-align: center;
+  margin-top:5%;
+}
+.actu strong{
+  margin-left: 5%;
+}
+.actu img{
+  box-shadow: 3px 3px 3px #8D8B3F;
+  margin:5%;
+  width: 90%;
+  border: 1px solid #8D8B3F;
+  border-radius: 20px 2px;
+}
+.avis{
+  width: 30%;
+  border: 1px solid #8D8B3F;
+  border-radius: 20px 2px;
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+}
+.avisDroite p{
+  margin-right: 3%;
+  margin-top: 3%;
+}
+.avis h3{
+  text-align: center;
+}
+.avisGauche{
+  width: 30%;
+}
+.avisGauche img{
+  box-shadow: 3px 3px 3px #8D8B3F;
+  border: 1px solid #8D8B3F;
+  border-radius: 20px 2px;
+  width: 90%;
+  margin-left:5px;
+  margin-bottom: 5px;
+}
+.avisDroite{
+  width: 70%;
+}
+.contactAnnexes{
+   width:28%;
+  border-left: 2px solid #8D8B3F;
+  padding-left: 7px;
+  margin-top: 37px;
+}
+.contactAnnexes strong{
+  color: #8D8B3F;
+}
+.actuAnnexes{
+  width:28%;
+  border-left: 2px solid #8D8B3F;
+  padding-left: 7px;
+  margin-top: 20%;
+}
+.avisAnnexes{
+   width:28%;
+  border-left: 2px solid #8D8B3F;
+  padding-left: 7px;
+    margin-top: 20%;
+}
+.avisAnnexes img{
+  width: 100%
+}
+
+/*!!!!!!!!!!!! Main Index!!!!!!!!!!!!!*/
+
+
+/*---------------------------------------
+------- Div de containerFooter-----------
+---------------------------------------*/
+
+
+.footerPlanSite{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #8D8B3F;
+}
+.navRapide a{
+  color:#585728;
+  width: 15%;
+}
+.navRapide h3 a{
+  font-family: 'Tangerine', cursive;
+  font-size:2rem;
+}
+.navRapide.col1 a:hover{
+  color:#074358;
+  border-bottom: 2px solid #074358;
+}
+.navRapide.col2 a:hover{
+  color:#458985;
+  border-bottom: 2px solid #458985;
+}
+.navRapide.col3 a:hover{
+  color:#A55C55;
+  border-bottom: 2px solid #A55C55;
+}
+.navRapide.col4 a:hover{
+  color:#c87837;
+  border-bottom: 2px solid #c87837;
+}
+.navRapide.col5 a:hover{
+
+  border-bottom: 2px solid #585728;
+}
+.navRapide.col5 h3{
+  margin-bottom: 15px;
+}
+
+#titreNavRapide{
+   color:#585728;
+  width: 100%;
+  margin-bottom:5px;
+}
+
+.footerCentre{
+  width: 100%;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footerCentre p{
+  font-size: .8rem;
+}
+.footerCentre img{
+  width: 15%;
+}
+.reseau{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width:40%;
+  margin-top: 10px;
+}
+.reseau img{
+  display:block;
+  width: 45px;
+}
+.newsLetter{
+  margin-top: 10px;
+  width:40%;
+}
+.newsLetter span{
+  font-size: 1.2rem;
+}
+.mentionsLegales{
+  margin: 10px auto;
+}
+.mentionsLegales img{
+  width:16px;
+}
+.pignose-gallery {
+   margin: 0 auto;
+   width: 100%;
+   height: 300px;
+}
+
+}
